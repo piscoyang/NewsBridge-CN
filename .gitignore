@@ -1,0 +1,10 @@
+# Ignore editor and local workspace settings
+.vscode/
+.github/
+
+# Virtual environment
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
