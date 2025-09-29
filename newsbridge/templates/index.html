@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>China News Panel</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Latest China News</h1>
+            <div class="controls">
+                <input id="q" class="search" placeholder="Search title or summary..." oninput="applyFilters()" />
+            </div>
+        </div>
+
+        <div id="source-filters" class="small" style="margin-bottom:12px"></div>
+
+        <div id="grid" class="card-grid">
+            <!-- cards injected by app.js -->
+        </div>
+    </div>
+    <script src="/static/app.js"></script>
+</body>
+</html>

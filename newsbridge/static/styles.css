@@ -1,0 +1,14 @@
+body { font-family: Inter, Arial, sans-serif; background: #f0f2f5; margin: 0; padding: 24px; }
+.container { max-width: 1100px; margin: 0 auto; }
+.header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+h1 { margin: 0; font-size: 1.6rem; }
+.controls { display:flex; gap:8px; align-items:center; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 12px; }
+.card { background: #fff; border-radius: 8px; padding: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+.card .meta { font-size: 0.85rem; color: #666; margin-bottom: 8px; }
+.card .title { font-weight: 600; margin-bottom: 6px; }
+.card .summary { font-size: 0.95rem; color: #333; }
+.filter-btn { background: #e6eefc; border: none; padding: 6px 10px; border-radius: 6px; cursor: pointer; }
+.filter-btn.active { background: #2b7be9; color: white; }
+.search { padding: 6px 10px; border-radius: 6px; border: 1px solid #ddd; }
+.small { font-size: 0.85rem; color: #999; }
